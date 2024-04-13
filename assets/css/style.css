@@ -292,6 +292,55 @@ body {
 }
 
 /* end about */
+/* start services */
+.services {
+  overflow: hidden;
+  height: 60vh;
+  padding-top: 30px;
+}
+
+.head-sub {
+  text-align: center;
+}
+
+.head-sub h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 30px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  position: relative;
+  text-transform: capitalize;
+  color: #555;
+}
+
+.head-sub h2:before {
+  content: "";
+  width: 70px;
+  border: solid #ff305b;
+  border-width: 1px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 4px 0 5px 0;
+  margin: 50px auto;
+}
+
+.head-sub h2::after {
+  content: "";
+  background-color: #ff305b;
+  width: 100px;
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0 0 0 0;
+  margin: 55px auto;
+}
 
 .services .items {
   transition: all 0.2s;
